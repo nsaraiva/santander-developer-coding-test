@@ -7,7 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Santander.HackerNewsBestStories.Application\Santander.HackerNewsBestStories.Application.csproj" />
+    <ProjectReference Include="..\Santander.HackerNewsBestStories.Infrastructure\Santander.HackerNewsBestStories.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
