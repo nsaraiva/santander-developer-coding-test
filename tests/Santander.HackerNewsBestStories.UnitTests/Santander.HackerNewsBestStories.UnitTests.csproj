@@ -24,6 +24,7 @@
     <ProjectReference Include="..\..\src\Santander.HackerNewsBestStories.Domain\Santander.HackerNewsBestStories.Domain.csproj" />
     <ProjectReference Include="..\..\src\Santander.HackerNewsBestStories.Application\Santander.HackerNewsBestStories.Application.csproj" />
     <ProjectReference Include="..\..\src\Santander.HackerNewsBestStories.Infrastructure\Santander.HackerNewsBestStories.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\Santander.HackerNewsBestStories.Api\Santander.HackerNewsBestStories.Api.csproj" />
   </ItemGroup>
 
 </Project>
