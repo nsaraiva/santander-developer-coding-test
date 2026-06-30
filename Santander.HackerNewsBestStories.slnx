@@ -11,4 +11,7 @@
   <Folder Name="/4 - Infrastructure/">
     <Project Path="src/Santander.HackerNewsBestStories.Infrastructure/Santander.HackerNewsBestStories.Infrastructure.csproj" />
   </Folder>
+  <Folder Name="/5- Test/">
+    <Project Path="tests/Santander.HackerNewsBestStories.UnitTests/Santander.HackerNewsBestStories.UnitTests.csproj" />
+  </Folder>
 </Solution>
