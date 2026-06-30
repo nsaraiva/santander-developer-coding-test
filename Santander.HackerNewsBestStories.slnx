@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/1 - API/">
+    <Project Path="src/Santander.HackerNewsBestStories.Api/Santander.HackerNewsBestStories.Api.csproj" />
+  </Folder>
+  <Folder Name="/2 - Application/">
+    <Project Path="src/Santander.HackerNewsBestStories.Application/Santander.HackerNewsBestStories.Application.csproj" />
+  </Folder>
+  <Folder Name="/3 - Domain/">
+    <Project Path="src/Santander.HackerNewsBestStories.Domain/Santander.HackerNewsBestStories.Domain.csproj" />
+  </Folder>
+  <Folder Name="/4 - Infrastructure/">
+    <Project Path="src/Santander.HackerNewsBestStories.Infrastructure/Santander.HackerNewsBestStories.Infrastructure.csproj" />
+  </Folder>
+</Solution>
