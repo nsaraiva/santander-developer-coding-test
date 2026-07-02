@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Santander.HackerNewsBestStories.Api.Models;
 using Santander.HackerNewsBestStories.Application.Abstractions.Services;
 
 namespace Santander.HackerNewsBestStories.Api.Controllers;
@@ -8,12 +9,10 @@ namespace Santander.HackerNewsBestStories.Api.Controllers;
 public sealed class BestStoriesController(IHackerNewsService service) : ControllerBase
 {
     [HttpGet("{count:int}")]
-    public async Task<IActionResult> GetBestStories(int count, CancellationToken ct)
+    public async Task<IActionResult> GetBestStories(
+        [FromRoute] BestStoriesRequest request, CancellationToken ct)
     {
-        if (count <= 0)
-            return BadRequest("count must be greater than zero");
-
-        var stories = await service.GetBestStoriesAsync(count, ct);
+        var stories = await service.GetBestStoriesAsync(request.Count, ct);
         return Ok(stories);
     }
 }
